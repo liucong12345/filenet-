@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- title -->
+    <title>Filenet</title>
+    <!-- seo -->
+    <meta name="keywords" content="filecoin,云存储,filecoin挖矿,ipfs,filenet,区块链云存储,ipfs矿机,ipfs矿工,ipfs挖矿" />
+    <meta name="description"
+        content="filenet.io社区Filenet与IPFS一起构成一个完整的产品。Filenet是构建在IPFS协议之上的激励层，它的底层功能包括分布式存储和分布式网络等,通过相应的命令行，即可实现对挖矿程序参数的配置、数据的上传、下载等。Filenet与IPFS一起构成一个完整的产品。">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="../static/css/loading.css">
+    <link rel="stylesheet" href="../static/css/aos.css">
+    <link rel="stylesheet" href="../static/css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/filenet_new.css">
+    <!-- iconfont -->
+    <link rel="stylesheet" href="../static/iconfont/iconfont.css">
+</head>
+
+<body class="is-loading">
+    <!-- loading -->
+    <div class="curtain">
+        <div class="loader">
+            <p>l</p>
+            <p>o</p>
+            <p>a</p>
+            <p>d</p>
+            <p>i</p>
+            <p>n</p>
+            <p>g</p>
+        </div>
+    </div>
+
+    <!-- header -->
+    <div class="header">
+        <div class="w1200">
+            <h1 class="logo noselect">
+                <a href="./index_EN.html">
+                    <img src="../static/images/logo.png">
+                </a>
+            </h1>
+            <ul class="list noselect list_en">
+                <li class="home">
+                    <a href="./index_EN.html">Home</a>
+                </li>
+                <li class="applyxiala">Tools <i class="iconfont icon-xiala1"></i> <i
+                        class="iconline applyiconline iconline_en"></i>
+                    <div class="moreapply noselect wallet_head_tools_en">
+                        <a href="./wallet_EN.html">FN wallet</a>
+                        <a href="./client_EN.html">FN minimg program</a>
+                        <a href="./fullnode_EN.html">PC full node wallet</a>
+                    </div>
+                </li>
+                <li class="applyxiala">Consensus Mechanism <i class="iconfont icon-xiala1"></i> <i
+                        class="iconline applyiconline iconline_en"></i>
+                    <div class="moreapply noselect wallet_head_cm_en">
+                        <a href="./packagingnodes_EN.html">Packaging Nodes</a>
+                        <a href="./supernode_EN.html">Super Nodes</a>
+                        <a href="./managementact_EN.html">Community</a>
+                    </div>
+                </li>
+                <li class="announce">
+                    <a href="./informationcenter_EN.html">Info</a>
+                </li>
+                <li class="applyxiala">Ecosystem <i class="iconfont icon-xiala1"></i> <i
+                        class="iconline applyiconline iconline_en"></i>
+                    <div class="moreapply noselect">
+                        <a href="https://www.ztiao.club" target="_blank">ZTiao</a>
+                        <a href="./fogcomputing_EN.html" target="_blank">Fog Computing</a>
+                    </div>
+                </li>
+                <li class="scan">
+                    <a href="http://scan.filenet.io/#/" target="_blank">Browser</a>
+                </li>
+                <li class="langxiala">English <i class="iconfont icon-xiala1"></i> <i class="iconline langiconline"></i>
+                    <div class="morelang noselect">
+                        <a href="./index_CH.html">简体中文</a>
+                        <a href="./index_Kr.html">한국어</a>
+                        <a href="./index_JP.html">日本語</a>
+                        <a href="./index_RUS.html">русский</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- fit -->
+            <div class="header_more">
+                <i class="iconfont icon-gengduo"></i>
+            </div>
+            <div class="header_more_box">
+                <a href="./index_EN.html">Home</a>
+                <div pull-id="1" class="header_more_box_applyxiala header_more_box_xiala">Tools <i
+                        class="iconfont icon-xiala1 myxiala myxiala_tools_en"></i>
+                </div>
+                <div class="header_more_box_moreapply header_more_box_pull">
+                    <a href="./wallet_EN.html">FN wallet</a>
+                    <a href="./client_EN.html">FN minimg program</a>
+                    <a href="./fullnode_EN.html">PC full node wallet</a>
+                </div>
+                <div pull-id="2" class="header_more_box_applyxiala header_more_box_xiala">Consensus Mechanism <i
+                        class="iconfont icon-xiala1 myxiala myxiala_cm_en"></i>
+                </div>
+                <div class="header_more_box_moreapply header_more_box_pull">
+                    <a href="./packagingnodes_EN.html">Packaging Nodes</a>
+                    <a href="./supernode_EN.html">Super Nodes</a>
+                    <a href="./managementact_EN.html">Community</a>
+                </div>
+                <a href="./informationcenter_EN.html">Info</a>
+                <div pull-id="3" class="header_more_box_applyxiala header_more_box_xiala">Ecosystem <i
+                        class="iconfont icon-xiala1 myxiala myxiala_eco_en"></i>
+                </div>
+                <div class="header_more_box_moreapply header_more_box_pull">
+                    <a href="https://www.ztiao.club" target="_blank">ZTiao</a>
+                    <a href="./fogcomputing_EN.html" target="_blank">Fog Computing</a>
+                </div>
+                <a href="http://scan.filenet.io/#/" target="_blank">Browser</a>
+                <div pull-id="4" class="header_more_box_langxiala header_more_box_xiala">English <i
+                        class="iconfont icon-xiala1 myxiala myxiala_lang myxiala_lang_en"></i>
+                </div>
+                <div class="header_more_box_morelang header_more_box_pull">
+                    <a href="./index_CH.html">简体中文</a>
+                    <a href="./index_Kr.html">한국어</a>
+                    <a href="./index_JP.html">日本語</a>
+                    <a href="./index_RUS.html">русский</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="banner" id="banner">
+        <div class="banner_title noselect banner_title_en">
+            <div class="w1200 overflow">
+                <h1 data-aos="fade-up">The Global Leader of Distributed <br>Storage</h1>
+                <!-- <h2>The goal is to build a low-cost and efficient decentralized data distribution network and form a commercial closed loop with distributed storage</h2> -->
+                <!-- <h2 class="lasth2">that forms a commercial closed loop with IPFS and Filenet is to create a new incentive layer on top of IPFS</h2> -->
+                <a data-aos="fade-up" data-aos-delay="200" class="banner_button banner_button_en"
+                    href="../static/file/FilenetWhitepaper.pdf" target="_blank">Read
+                    the
+                    white paper</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- introduction -->
+    <div class="introduction" id="introduction">
+        <div class="w1200">
+            <div class="introduction_top introduction_top_en">
+                <div class="introduction_top_txt">
+                    <h2 data-aos="fade-up">FILENET INTRODUCTION
+                        <i class="iconline"></i>
+                    </h2>
+                    <p data-aos="fade-up" data-aos-delay="200">
+                        Filenet(FN) is the world's first public chain of distributed storage application who has
+                        lauchned the mainet, and is also the world's first public chain of distributed storage
+                        application using DPOS + POC consensus mechanism.Filenet is dedicated to storing
+                        and distributing valuable content, rewarding miners in the form of mining to contribute idle
+                        bandwidth and storage. The mission of Filenet is to establish a powerful distributed data
+                        service system by connecting all idle storage
+                        to form, so any storage device that can connect to the Internet can participate in mining.
+                        Generally, Filenet is a super cloud system based on distributed storage and content sharing.
+                    </p>
+                </div>
+                <div class="introduction_top_img" data-aos="fade-up" data-aos-delay="300">
+                    <img src="../static/images/introduction_img.png">
+                </div>
+            </div>
+            <div class="introduction_bottom" data-aos="fade-up" data-aos-delay="400">
+                <div class="introduction_bottom_box">
+                    <p class="introduction_bottom_box_title">DATA DISTRIBUTION</p>
+                    <p class="introduction_bottom_box_content">
+                        Filenet is dedicated to storing and distributing valuable content. The system provides a file
+                        promotion system. The more data is retrieved, the more popular it becomes, and the file can be
+                        mined.
+                    </p>
+                    <img src="../static/images/introduction_data.png">
+                </div>
+                <div class="introduction_bottom_box">
+                    <p class="introduction_bottom_box_title">STORAGE FOR FREE</p>
+                    <p class="introduction_bottom_box_content">
+                        FThe DAO mechanism adopted by Filenet, in the system of Filenet, users need not pay for
+                        uploading and downloading, which greatly reduces the cost of enterprise server and bandwidth</p>
+                    <img src="../static/images/introduction_cunchu.png">
+                </div>
+                <div class="introduction_bottom_box">
+                    <p class="introduction_bottom_box_title">MINING MODE</p>
+                    <p class="introduction_bottom_box_content">
+                        Filenet is used to retrieve and distribute mining patterns, pledge a certain amount of deposit
+                        and provide a certain amount of storage space to participate in mining. The higher the miner's
+                        contribution, the higher the probability of a block.</p>
+                    <img src="../static/images/introduction_wakuang.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- diagram -->
+    <div class="diagram overflow" id="diagram">
+        <div class="diagram_bgkuang">
+            <i class="yellowicon"></i>
+            <i class="blueiconleft"></i>
+            <i class="blueiconright"></i>
+            <div class="w1200 diagram_contain diagram_contain_en">
+                <div data-aos="fade-up" data-aos-delay="100" class="diagram_contain_img">
+                    <img src="../static/images/diagram.png">
+                </div>
+                <div class="diagram_txt diagram_txt_en">
+                    <h2 data-aos="fade-up">FILENET ARCHITECTURE DIAGRAM
+                        <i class="iconline"></i>
+                    </h2>
+                    <p data-aos="fade-up" data-aos-delay="200"> <i class="doticon"></i> Filenet, as the first public
+                        chain of distributed storage application, forms a complete application solution together with
+                        many distributed storage protocols. The underlying functions of Filenet include distributed
+                        storage and distributed network, which are implemented by Mine physical devices running Filenet.
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="400"> <i class="doticon"></i> Filenet runs on a distributed
+                        network for retrieval and distribution services. It includes block management, consensus
+                        mechanism, and smart contracts. DAPP runs on DFN and Filenet, and users upload and download
+                        data through DAPP.
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="600"> <i class="doticon"></i> Decentralized File Network (DFN)
+                        provides data promotion system. When a user uploads data through a device, this data is stored
+                        locally. When this data is retrieved more times, this data will gradually enter
+                        the public network and become popular data, and this data can participate in mining.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- plan -->
+    <div class="plan plan_en" id="plan">
+        <div class="w1200 plan_contain plan_contain_en">
+            <div class="plan_contain_txt overflow plan_contain_txt_en">
+                <h2 data-aos="fade-up">FILENET DISTRIBUTION PLAN
+                    <i class="iconline"></i>
+                </h2>
+                <p data-aos="fade-up" data-aos-delay="200" class="plan_contain_txt_summary">Within the framework of
+                    Filenet, a total of 1 billion is issued, 80% of which is produced through mining.<br> Miners provide
+                    storage resources, store data, provide users with data retrieval and distribution, and earn revenue
+                    through retrieval.
+                </p>
+                <p data-aos="fade-up" data-aos-delay="400" class="plan_contain_txt_dot"> <i class="doticon"></i> 10% is
+                    used for technical community incentives, and 10 years of gradual lifting of the ban.
+                </p>
+                <p data-aos="fade-up" data-aos-delay="500" class="plan_contain_txt_dot"> <i class="doticon"></i> 10% is
+                    used for ecological construction support and is gradually lifted according to the progress of
+                    mining.
+                </p>
+                <p data-aos="fade-up" data-aos-delay="600" class="plan_contain_txt_dot"> <i class="doticon"></i> 80% are
+                    mined by “participating in storage or packaging” and are halved every about 5.07 years.
+                </p>
+                <p data-aos="fade-up" data-aos-delay="700" class="plan_contain_txt_dot"> <i class="doticon"></i> FN uses
+                    the DPOS+POC certification mechanism to produce one block every 10 seconds, initially rewarding 25FN
+                    per block.
+                </p>
+            </div>
+            <div class="plan_contain_img" data-aos="fade-up" data-aos-delay="100">
+                <img src="../static/images/plan.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- roadline -->
+    <div class="product-section product-features overflow" id="roadline">
+        <h2 data-aos="fade-up" class="product-title product-title_en">Filenet PROJECT ROADMAP <i class="iconline"></i>
+        </h2>
+        <!-- wrapper -->
+        <div class="product-wrapper" data-aos="fade-up" data-aos-delay="200">
+            <div id="swiper1" class="product-body swiper-container swiper-container-horizontal">
+                <ul class="features-slide swiper-wrapper"
+                    style="transform: translate3d(-565px, 0px, 0px); transition-duration: 0ms;">
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>October 2017</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s"> Filenet project is launched </p>
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide swiper-slide-prev" style="width: 282.5px;">
+                        <h3>August 3, 2018</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s"> Initiate early miner recruitment </p>
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide swiper-slide-active" style="width: 282.5px;">
+                        <h3>September 19, 2018</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s"> Filenet Wallet Fn Wallet is online on schedule </p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide swiper-slide-next" style="width: 282.5px;">
+                        <h3>October 11, 2018</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s"> Start project testing </p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>November 25, 2018</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">Main online</p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>December 7, 2018</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">Launch the Coineal exchange</p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>January 20, 2019</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">iOS version of Fn wallet officially released</p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>March 14, 2019</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">Filenet mining program upgrade update</p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>April 4, 2019</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">Fn officially launched IPFSCOIN</p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>June 27, 2019</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">Filenet main chain hard fork upgrade completed</p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>July 9, 2019</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">Filenet opens the super node</p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>August 25, 2019 15:00</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">Online BTB Exchange</p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>August 30, 2019, 14:00</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">On-line ZG Exchange</p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>October 18, 2019</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">Filenet is about to open capacity ramp</p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>October 21, 2019</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">On-line ZB Exchange</p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>October 23, 2019</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">Filenet founding block successfully digs out the first
+                                anniversary
+                            </p>
+
+                        </a>
+                    </li>
+
+                    <li class="features-item swiper-slide" style="width: 282.5px;">
+                        <h3>November 2019</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s">Filenet official website is about to make a major revision</p>
+
+                        </a>
+                    </li>
+
+                    <!-- future -->
+                    <li class="features-item swiper-slide dark" style="width: 282.5px;">
+                        <h3>March 2020</h3>
+                        <i></i>
+                        <a class="features-info">
+                            <p class="features-info-i"></p>
+                            <p class="features-info-s"> Filenet Open Source Program </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- pre -->
+            <div class="swiper-button-prev swiper-button-prev-roadline"></div>
+            <!-- next -->
+            <div class="swiper-button-next swiper-button-next-roadline"></div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="w1200">
+            <div class="footer_up" data-aos="fade-up">
+                <h5 data-aos="fade-up" class="footer_partner">PARTNER
+                    <i class="footer_partner_iconline"></i>
+                </h5>
+
+                <!-- subhead -->
+                <div class="partner_subhead">
+                    <div data-id="1" class="partner_subhead_normal partner_subhead_active">Capitals</div>
+                    <div data-id="2" class="partner_subhead_normal">Exchanges</div>
+                    <div data-id="3" class="partner_subhead_normal">Marketcap</div>
+                    <div data-id="4" class="partner_subhead_normal">Media</div>
+                </div>
+
+                <!-- swiper 2 -->
+                <div class="partner_swiper partner_swiper_active">
+                    <div id="swiper2" class="swiper-container swiper-container-2">
+
+                        <div class="swiper-wrapper">
+                            <!-- 1 -->
+                            <div class="swiper-slide">
+                                <div class="partner_logo_box_contain">
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/01_xiongan.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/02_bianhua.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/03_zijie.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/04_jiami.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/05_dingfeng.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/06_weilai.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/07_zhisheng.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/08_keyin.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/09_xiangxiangli.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/10_lianchuang.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/11_lianshan.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/12_jidou.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="swiper-slide">
+                                <div class="partner_logo_box_contain">
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/13_qingsong.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/14_col.png">
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <img src="../static/images/15_valiant.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 导航按钮 -->
+                    <div class="swiper-button-prev swiper-button-prev-partner swiper-button-prev-partner-2"></div>
+                    <div class="swiper-button-next swiper-button-next-partner swiper-button-next-partner-2"></div>
+
+                </div>
+
+                <!-- swiper 3 -->
+                <div class="partner_swiper">
+                    <div id="swiper3" class="swiper-container swiper-container-2">
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="partner_logo_box_contain">
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.coineal.com/index.html#zh_CN" target="_blank">
+                                            <img src="../static/images/11_coineal.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="http://www.zbexs.com" target="_blank">
+                                            <img src="../static/images/12_ZB.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.zg.com" target="_blank">
+                                            <img src="../static/images/13_ZG.png">
+                                        </a>
+                                    </div>
+                                    <!-- <div class="partner_logo_box">
+                                        <a href="https://www.btb.io" target="_blank">
+                                            <img src="../static/images/14_btb.png">
+                                        </a>
+                                    </div> -->
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.boboo.com" target="_blank">
+                                            <img src="../static/images/15_bobo.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.mxc.com" target="_blank">
+                                            <img src="../static/images/16_mxc.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.fmall.io" target="_blank">
+                                            <img src="../static/images/17_fmall.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://fubt.co" target="_blank">
+                                            <img src="../static/images/18_fubt.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 导航按钮 -->
+                    <div class="swiper-button-prev swiper-button-prev-partner swiper-button-prev-partner-3"></div>
+                    <div class="swiper-button-next swiper-button-next-partner swiper-button-next-partner-3"></div>
+
+                </div>
+
+                <!-- swiper 4 -->
+                <div class="partner_swiper">
+                    <div id="swiper4" class="swiper-container swiper-container-2">
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="partner_logo_box_contain">
+                                    <div class="partner_logo_box">
+                                        <a href="https://coinmarketcap.com/zh/currencies/filenet" target="_blank">
+                                            <img src="../static/images/21_CMC.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.coingecko.com/en/coins/filenet" target="_blank">
+                                            <img src="../static/images/22_coingecko.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://coincodex.com/crypto/filenet" target="_blank">
+                                            <img src="../static/images/23_coincodex.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://blockfolio.com/" target="_blank">
+                                            <img src="../static/images/25_blockfolio.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://coinpaprika.com/coin/fn-filenet" target="_blank">
+                                            <img src="../static/images/26_coinpaprika.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://coinranking.com" target="_blank">
+                                            <img src="../static/images/27_coinranking.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.cryptocompare.com" target="_blank">
+                                            <img src="../static/images/28_cryptocompare.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.feixiaohao.com" target="_blank">
+                                            <img src="../static/images/29_feixiaohao.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://coindar.org" target="_blank">
+                                            <img src="../static/images/30_Coindar.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.mytokencap.com" target="_blank">
+                                            <img src="../static/images/31_mytoken.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://cryptocurrency.org/currencies/85830/filenet?chartStart=1587027900000&chartEnd=1587114000000"
+                                            target="_blank">
+                                            <img src="../static/images/32_cryptocurrency.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://neironix.io/ru/cryptocurrency/filenet" target="_blank">
+                                            <img src="../static/images/33_neironix.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 导航按钮 -->
+                    <div class="swiper-button-prev swiper-button-prev-partner swiper-button-prev-partner-4"></div>
+                    <div class="swiper-button-next swiper-button-next-partner swiper-button-next-partner-4"></div>
+
+                </div>
+
+                <!-- swiper 5 -->
+                <div class="partner_swiper">
+                    <div id="swiper5" class="swiper-container swiper-container-2">
+
+                        <div class="swiper-wrapper">
+                            <!-- 1 -->
+                            <div class="swiper-slide">
+                                <div class="partner_logo_box_contain">
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.bishijie.com" target="_blank">
+                                            <img src="../static/images/31_bishijie.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.block360.pro" target="_blank">
+                                            <img src="../static/images/32_buluoke.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="http://www.iterduo.com" target="_blank">
+                                            <img src="../static/images/33_erduo.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="http://www.weilaicaijing.com" target="_blank">
+                                            <img src="../static/images/34_weilai.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://yangtuobtc.com" target="_blank">
+                                            <img src="../static/images/35_yangtuo.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="http://www.beekuaibao.com" target="_blank">
+                                            <img src="../static/images/36_bikuaibao.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.chainhoo.com" target="_blank">
+                                            <img src="../static/images/37_lianhu.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.coinness.com" target="_blank">
+                                            <img src="../static/images/38_coinness.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://www.jinse.com" target="_blank">
+                                            <img src="../static/images/39_jingse.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="http://www.huoxing24.com" target="_blank">
+                                            <img src="../static/images/40_huoxing.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://coinpost.jp" target="_blank">
+                                            <img src="../static/images/41_coinpost.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://blockchain-life.com/europe/en/news" target="_blank">
+                                            <img src="../static/images/42_BL.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="swiper-slide">
+                                <div class="partner_logo_box_contain">
+                                    <div class="partner_logo_box">
+                                        <a href="https://summit.dao.digital/GIVS#/?lang=en" target="_blank">
+                                            <img src="../static/images/43_givs.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://coronavirusmap.me" target="_blank">
+                                            <img src="../static/images/44_coronavirusmap.png">
+                                        </a>
+                                    </div>
+                                    <div class="partner_logo_box">
+                                        <a href="https://kcn.media" target="_blank">
+                                            <img src="../static/images/45_kcn.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- 导航按钮 -->
+                    <div class="swiper-button-prev swiper-button-prev-partner swiper-button-prev-partner-5"></div>
+                    <div class="swiper-button-next swiper-button-next-partner swiper-button-next-partner-5"></div>
+
+                </div>
+
+            </div>
+            <div class="footer_box" data-aos="fade-up" data-aos-delay="400">
+                <h5 class="footer_box_title">Quick access</h5>
+                <a href="#introduction">Introduction</a>
+                <a href="#diagram">Architecture</a>
+                <!-- <a href="#diagram">Architecture diagram</a> -->
+                <a href="#plan">Contribution plan</a>
+            </div>
+            <div class="footer_box product" data-aos="fade-up" data-aos-delay="400">
+                <h5 class="footer_box_title">Product</h5>
+                <a href="./wallet_EN.html">Wallet</a>
+                <a href="./client_EN.html">Mining</a>
+            </div>
+            <div class="footer_box develop" data-aos="fade-up" data-aos-delay="400">
+                <h5 class="footer_box_title">Developers</h5>
+                <a href="https://github.com/filenet" target="_blank">Github</a>
+                <a href="./fullnode_EN.html">Full node wallet</a>
+            </div>
+            <div class="footer_box about" data-aos="fade-up" data-aos-delay="400">
+                <h5 class="footer_box_title">About</h5>
+                <a href="#roadline">Roadmap</a>
+                <a href="../static/file/FilenetWhitepaper.pdf" target="_blank">White paper</a>
+                <a href="http://scan.filenet.io/#/" target="_blank">Browser</a>
+            </div>
+            <div class="footer_box contact" data-aos="fade-up" data-aos-delay="400">
+                <h5 class="footer_box_title">Contact us</h5>
+                <div class="contactbox">
+                    <a href="mailto://contact@filenet.io" class="email" target="_blank">
+                        <i></i>
+                    </a>
+                    <a href="https://twitter.com/search?q=centerfilenet" class="twitter" target="_blank">
+                        <i></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100027801881754" class="facebook" target="_blank">
+                        <i></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100027801881754" class="reddit" target="_blank">
+                        <i></i>
+                    </a>
+                    <a href="https://t.me/filenetcommunity" class="telegram" target="_blank">
+                        <i></i>
+                    </a>
+                    <a href="javascript:void(0);" class="wechat">
+                        <i></i>
+                        <div class="weixin_qrcode">
+                            <img src="../static/images/weixin_qrcodeimg.jpg">
+                        </div>
+                    </a>
+                    <a href="https://t.bqi.com/u/307662.html" class="yinhao" target="_blank">
+                        <i></i>
+                    </a>
+                    <a href="https://medium.com/@filenetglobal" class="medium" target="_blank">
+                        <i></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="wallet_footer">
+        <div class="w1200">
+            <p>© Copyright 2016-2020 filenet.io</p>
+        </div>
+    </div>
+
+    <div style="display: none;">
+        <script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1278307264&web_id=1278307264"></script>
+    </div>
+
+</body>
+
+<!-- js -->
+<script src="../static/js/three.min.js"></script>
+<script src="../static/js/indexthree.js"></script>
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/swiper-3.4.2.jquery.min.js"></script>
+<script src="../static/js/aos.js"></script>
+<script src="../static/js/aosindex.js"></script>
+<script src="../static/js/index.js"></script>
+
+<script>
+    window.onload = function () {
+        $('body').removeClass('is-loading')
+    }
+</script>
+
+</html>

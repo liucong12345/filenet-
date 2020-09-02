@@ -1,0 +1,37 @@
+{
+  "id": "1489292",
+  "name": "filenet",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10664706",
+      "name": "搜索 search",
+      "font_class": "search",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "12323762",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "10885283",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "4867106",
+      "name": "下拉",
+      "font_class": "xiala1",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    }
+  ]
+}

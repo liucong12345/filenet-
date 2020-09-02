@@ -1,0 +1,147 @@
+/* common */
+
+@charset "utf-8";
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('../fonts/helvetica-condensed.ttf');
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'helvetica', 'Microsoft YaHei';
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+input,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 400;
+}
+
+ul,
+ol,
+dl {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+body {
+    font: 12px/100% "Microsoft YaHei";
+    /* 这个属性厉害 */
+    line-height: 1;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.w1200 {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*清除浮动*/
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+/* 不能选中 */
+
+.noselect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+}
+
+/* 测试 */
+
+.blue {
+    background-color: skyblue;
+}
+
+/* 垂直塌陷  给父元素用*/
+
+.overflow {
+    overflow: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+/* 超出一行点点点 */
+.oneline {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 超出两行点点点 */
+.twolines {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}

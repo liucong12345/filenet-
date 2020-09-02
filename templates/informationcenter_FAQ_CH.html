@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- title -->
+    <title>Filenet</title>
+    <!-- seo -->
+    <meta name="keywords" content="filecoin,云存储,filecoin挖矿,ipfs,filenet,区块链云存储,ipfs矿机,ipfs矿工,ipfs挖矿" />
+    <meta name="description"
+        content="filenet.io社区Filenet与IPFS一起构成一个完整的产品。Filenet是构建在IPFS协议之上的激励层，它的底层功能包括分布式存储和分布式网络等,通过相应的命令行，即可实现对挖矿程序参数的配置、数据的上传、下载等。Filenet与IPFS一起构成一个完整的产品。">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon">
+    <!-- layui css -->
+    <link rel="stylesheet" href="../static/layui/css/layui.css">
+    <!-- css -->
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/fold.css">
+    <link rel="stylesheet" href="../static/css/filenet_new.css">
+    <!-- iconfont -->
+    <link rel="stylesheet" href="../static/iconfont/iconfont.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header wallet_header">
+        <div class="w1200">
+            <h1 class="logo noselect">
+                <a href="./index_CH.html">
+                    <img src="../static/images/logo.png">
+                </a>
+            </h1>
+            <ul class="list noselect">
+                <li class="home">
+                    <a href="./index_CH.html">首页</a>
+                </li>
+                <li class="applyxiala">应用 <i class="iconfont icon-xiala1"></i> <i class="iconline applyiconline"></i>
+                    <div class="moreapply noselect wallet_moreapply">
+                        <a href="./wallet_CH.html">FN钱包</a>
+                        <a href="./client_CH.html">FN挖矿程序</a>
+                        <a href="./fullnode_CH.html">PC全节点钱包</a>
+                    </div>
+                </li>
+                <li class="applyxiala">共识机制 <i class="iconfont icon-xiala1"></i> <i class="iconline applyiconline"></i>
+                    <div class="moreapply noselect wallet_moreapply">
+                        <a href="./packagingnodes_CH.html">打包节点</a>
+                        <a href="./supernode_CH.html">超级节点</a>
+                        <a href="./managementact_CH.html">自治社区</a>
+                    </div>
+                </li>
+                <li class="announce">
+                    <a href="./informationcenter_CH.html">资讯中心</a>
+                </li>
+                <li class="applyxiala">商业生态 <i class="iconfont icon-xiala1"></i> <i class="iconline applyiconline"></i>
+                    <div class="moreapply noselect wallet_moreapply">
+                        <a href="https://www.ztiao.club" target="_blank">纸条</a>
+                        <a href="./fogcomputing_CH.html" target="_blank">雾计算</a>
+                    </div>
+                </li>
+                <li class="scan">
+                    <a href="http://scan.filenet.io/#/" target="_blank">浏览器</a>
+                </li>
+                <li class="langxiala">简体中文 <i class="iconfont icon-xiala1"></i> <i class="iconline langiconline"></i>
+                    <div class="morelang noselect wallet_morelang">
+                        <a href="./informationcenter_FAQ_EN.html">English</a>
+                        <a href="./informationcenter_FAQ_Kr.html">한국어</a>
+                        <a href="./informationcenter_FAQ_JP.html">日本語</a>
+                        <a href="./informationcenter_FAQ_RUS.html">русский</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- fit -->
+            <div class="header_more">
+                <i class="iconfont icon-gengduo"></i>
+            </div>
+            <div class="header_more_box header_more_box_other">
+                <a href="./index_CH.html">首页</a>
+                <div pull-id="1" class="header_more_box_applyxiala header_more_box_xiala">应用 <i
+                        class="iconfont icon-xiala1 myxiala"></i></div>
+                <div class="header_more_box_moreapply header_more_box_pull">
+                    <a href="./wallet_CH.html">FN钱包</a>
+                    <a href="./client_CH.html">FN挖矿程序</a>
+                    <a href="./fullnode_CH.html">PC全节点钱包</a>
+                </div>
+                <div pull-id="2" class="header_more_box_applyxiala header_more_box_xiala">共识机制 <i
+                        class="iconfont icon-xiala1 myxiala myxiala_lang"></i></div>
+                <div class="header_more_box_moreapply header_more_box_pull">
+                    <a href="./packagingnodes_CH.html">打包节点</a>
+                    <a href="./supernode_CH.html">超级节点</a>
+                    <a href="./managementact_CH.html">自治社区</a>
+                </div>
+                <a href="./informationcenter_CH.html">资讯中心</a>
+                <div pull-id="3" class="header_more_box_applyxiala header_more_box_xiala">商业生态 <i
+                        class="iconfont icon-xiala1 myxiala myxiala_lang"></i></div>
+                <div class="header_more_box_moreapply header_more_box_pull">
+                    <a href="https://www.ztiao.club" target="_blank">纸条</a>
+                    <a href="./fogcomputing_CH.html" target="_blank">雾计算</a>
+                </div>
+                <a href="http://scan.filenet.io/#/" target="_blank">浏览器</a>
+                <div pull-id="4" class="header_more_box_langxiala header_more_box_xiala">简体中文 <i
+                        class="iconfont icon-xiala1 myxiala myxiala_lang"></i>
+                </div>
+                <div class="header_more_box_morelang header_more_box_pull">
+                    <a href="./informationcenter_FAQ_EN.html">English</a>
+                    <a href="./informationcenter_FAQ_Kr.html">한국어</a>
+                    <a href="./informationcenter_FAQ_JP.html">日本語</a>
+                    <a href="./informationcenter_FAQ_RUS.html">русский</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- kuang -->
+    <div class="informationcenter_news_outer">
+        <div class="informationcenter_news_inner" style="padding-bottom: 90px;">
+
+            <!-- nav start -->
+            <div class="informationcenter_news_nav informationcenter_news_nav_faq">
+                <div class="informationcenter_news_nav_innerbox">
+                    <a class="informationcenter_news_nav_a" href="./index_CH.html">首页</a>
+                    <span>></span>
+                    <a class="informationcenter_news_nav_a" href="./informationcenter_CH.html">资讯中心</a>
+                    <span>></span>
+                    <span class="informationcenter_news_nav_this">常见问题</span>
+                    <!-- search -->
+                    <div class="info_faq_search">
+                        <i class="info_faq_search_icon iconfont icon-search"></i>
+                        <input type="text" class="info_faq_search_input" placeholder="搜索常见问题">
+                    </div>
+                </div>
+            </div>
+            <!-- nav end -->
+
+            <!-- FAQ start -->
+            <ul class="accordion" id="view">
+            </ul>
+            <!-- FAQ end -->
+
+            <!-- page -->
+            <div id="mypage" class="mypage"></div>
+
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="wallet_footer">
+        <div class="w1200">
+            <p>© Copyright 2016-2020 filenet.io</p>
+        </div>
+    </div>
+
+    <div style="display: none;">
+        <script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1278307264&web_id=1278307264"></script>
+    </div>
+
+</body>
+
+<!-- js -->
+<script src="../static/js/jquery.min.js"></script>
+<!-- layui js -->
+<script src="../static/layer/layer.js"></script>
+<script src="../static/layui/layui.js"></script>
+<!-- mine js -->
+<script src="../static/js/fold.js"></script>
+<script src="../static/js/common.js"></script>
+<script src="../static/js/baseurl.js"></script>
+
+
+
+<script id="demo" type="text/html">
+    {{# layui.each(d.list, function(index, item){ }}
+    <li class="b-line">
+        <div class="link">
+            <p style="font-family:'Microsoft YaHei';">{{item.noticeTitle}}</p>
+            <i class="iconfont icon-xiala icon"></i>
+        </div>
+        <div class="submenu">{{item.noticeContent}}</div>
+    </li>
+    {{# }); }} {{# if(d.list.length === 0){ }} {{# } }}
+</script>
+
+<script>
+    var data = {
+        "list": [],
+    }
+
+    var pageSize = 10
+
+    var search_page = []
+
+    // view
+    // page
+    layui.use(['laytpl', 'laypage'], function () {
+        var laytpl = layui.laytpl;
+        var laypage = layui.laypage;
+
+        //loading
+        var loading = layer.load(2, {
+            shade: false
+        });
+
+        $.ajax({
+            url: baseurl + '/nitice/list?noticeType=1&style=5', // 中文 faq
+            type: 'get',
+            //
+            success: function (res) {
+                layer.close(loading);
+
+                if (res.status == 200) {
+
+                    search_page = res.data
+
+                    // front page
+                    if (res.data.length <= pageSize) {
+                        data.list = res.data
+                    } else {
+                        for (var i = 0; i < pageSize; i++) {
+                            data.list.push(res.data[i])
+                        }
+                    }
+                    // render
+                    var getTpl = demo.innerHTML,
+                        view = document.getElementById('view');
+                    laytpl(getTpl).render(data, function (html) {
+                        view.innerHTML = html;
+                    });
+                    // hover
+                    var accordion = new Accordion($('.accordion'), false);
+                    // page
+                    laypage.render({
+                        elem: 'mypage',
+                        count: res.data.length,
+                        layout: ['page'],
+                        limit: pageSize,
+                        jump: function (obj, first) {
+                            if (!first) {
+                                var size = pageSize * obj.curr
+                                data.list = []
+                                if (size > res.data.length) {
+                                    for (var i = size - pageSize; i < res.data.length; i++) {
+                                        data.list.push(res.data[i])
+                                    }
+                                    var getTpl = demo.innerHTML,
+                                        view = document.getElementById('view');
+                                    laytpl(getTpl).render(data, function (html) {
+                                        view.innerHTML = html;
+                                    });
+                                    var accordion = new Accordion($('.accordion'), false);
+                                } else {
+                                    for (var i = size - pageSize; i < size; i++) {
+                                        data.list.push(res.data[i])
+                                    }
+                                    var getTpl = demo.innerHTML,
+                                        view = document.getElementById('view');
+                                    laytpl(getTpl).render(data, function (html) {
+                                        view.innerHTML = html;
+                                    });
+                                    var accordion = new Accordion($('.accordion'), false);
+                                }
+                            }
+                        }
+                    })
+
+                    // search
+                    $('.info_faq_search_input').keydown(function (e) {
+                        if (e.keyCode == 13) {
+                            data.list = []
+                            search_page = []
+                            // The search is empty
+                            if ($('.info_faq_search_input').val().trim() == '') {
+                                search_page = res.data
+                                // front page
+                                if (res.data.length <= pageSize) {
+                                    data.list = res.data
+                                } else {
+                                    for (var i = 0; i < pageSize; i++) {
+                                        data.list.push(res.data[i])
+                                    }
+                                }
+                                // render
+                                var getTpl = demo.innerHTML,
+                                    view = document.getElementById('view');
+                                laytpl(getTpl).render(data, function (html) {
+                                    view.innerHTML = html;
+                                });
+                                // hover
+                                var accordion = new Accordion($('.accordion'), false);
+                                // page
+                                laypage.render({
+                                    elem: 'mypage',
+                                    count: res.data.length,
+                                    layout: ['page'],
+                                    limit: pageSize,
+                                    jump: function (obj, first) {
+                                        if (!first) {
+                                            var size = pageSize * obj.curr
+                                            data.list = []
+                                            if (size > res.data.length) {
+                                                for (var i = size - pageSize; i < res.data.length; i++) {
+                                                    data.list.push(res.data[i])
+                                                }
+                                                var getTpl = demo.innerHTML,
+                                                    view = document.getElementById('view');
+                                                laytpl(getTpl).render(data, function (html) {
+                                                    view.innerHTML = html;
+                                                });
+                                                var accordion = new Accordion($('.accordion'), false);
+                                            } else {
+                                                for (var i = size - pageSize; i < size; i++) {
+                                                    data.list.push(res.data[i])
+                                                }
+                                                var getTpl = demo.innerHTML,
+                                                    view = document.getElementById('view');
+                                                laytpl(getTpl).render(data, function (html) {
+                                                    view.innerHTML = html;
+                                                });
+                                                var accordion = new Accordion($('.accordion'), false);
+                                            }
+                                        }
+                                    }
+                                })
+                                return
+                            }
+
+                            // The search is not empty
+                            for (var i = 0; i < res.data.length; i++) {
+                                if (res.data[i].noticeTitle.toLowerCase().indexOf($('.info_faq_search_input').val().trim().toLowerCase()) != -1) {
+                                    search_page.push(res.data[i])
+                                }
+                            }
+                            // front page
+                            if (search_page.length <= pageSize) {
+                                data.list = search_page
+                            } else {
+                                for (var i = 0; i < pageSize; i++) {
+                                    data.list.push(search_page[i])
+                                }
+                            }
+                            var getTpl = demo.innerHTML,
+                                view = document.getElementById('view');
+                            laytpl(getTpl).render(data, function (html) {
+                                view.innerHTML = html;
+                            });
+                            var accordion = new Accordion($('.accordion'), false);
+                            laypage.render({
+                                elem: 'mypage',
+                                count: search_page.length,
+                                layout: ['page'],
+                                limit: pageSize,
+                                jump: function (obj, first) {
+                                    if (!first) {
+                                        var size = pageSize * obj.curr
+                                        data.list = []
+                                        if (size > search_page.length) {
+                                            for (var i = size - pageSize; i < search_page.length; i++) {
+                                                data.list.push(search_page[i])
+                                            }
+                                            var getTpl = demo.innerHTML,
+                                                view = document.getElementById('view');
+                                            laytpl(getTpl).render(data, function (html) {
+                                                view.innerHTML = html;
+                                            });
+                                            var accordion = new Accordion($('.accordion'), false);
+                                        } else {
+                                            for (var i = size - pageSize; i < size; i++) {
+                                                data.list.push(search_page[i])
+                                            }
+                                            var getTpl = demo.innerHTML,
+                                                view = document.getElementById('view');
+                                            laytpl(getTpl).render(data, function (html) {
+                                                view.innerHTML = html;
+                                            });
+                                            var accordion = new Accordion($('.accordion'), false);
+                                        }
+                                    }
+                                }
+                            })
+
+                        }
+                    })
+
+                } else {
+                    alert(res.msg)
+                }
+            },
+        })
+    });
+</script>
+
+</html>
